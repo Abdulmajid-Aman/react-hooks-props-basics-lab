@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home user = {user}/>
+      <Home name = {user.name} color = {user.color} city = {user.city}/>
       <About bio = {"I made this!"}  github = {user.links.github} linkedin = {user.links.linkedin}/>
     </div>
   );

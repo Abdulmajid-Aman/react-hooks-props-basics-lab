@@ -3,8 +3,8 @@ const Links = (props) => {
   return (
     <>
       <h3>Links</h3>
-      <a href={props.github}>https://github.com//liza</a>
-      <a href ={props.linkedin}>https://www.linkedin.com/in/liza/</a>
+      <a href={props.github}>{props.github}</a>
+      <a href ={props.linkedin}>{props.linkedin}</a>
     </>
   )
 }
